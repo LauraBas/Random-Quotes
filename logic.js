@@ -371,7 +371,7 @@ function NextQuote() {
 
 function update() {
     quoteActual.textContent = randomQuotes[actual].quote;
-    authorActual.textContent = randomQuotes[actual].author;
+    authorActual.textContent =("~ " + randomQuotes[actual].author);
 }
 
 
