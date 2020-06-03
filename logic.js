@@ -370,8 +370,9 @@ function NextQuote() {
 }
 
 function update() {
-    quoteActual.textContent = randomQuotes[actual].quote;
-    authorActual.textContent =("~ " + randomQuotes[actual].author);
+    let index = actual % randomQuotes.length
+    quoteActual.textContent = randomQuotes[index].quote;
+    authorActual.textContent =("~ " + randomQuotes[index].author);
 }
 
 
