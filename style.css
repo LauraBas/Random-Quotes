@@ -1,0 +1,53 @@
+body{
+    background-color: lightgray;
+}
+#wrapper {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#quote-box {
+    width: 400px;
+    height: 200px;
+    background-color: darkmagenta;
+    display: flex;
+    box-shadow: 5px 9px #888888a3;
+    font-size: 1.2em
+;
+
+}
+
+#chau {
+    font-family: cursive;
+    color: darkmagenta;
+    margin-top: 15px;
+}
+
+.buttons {
+    width: 450px;
+    display: block;
+    margin-top: auto;
+}
+
+#tweet-quote, #tumblr-quote {
+    float: left;
+    background: lightgray;
+    width: 20px;
+    height: 20px;
+    color: darkmagenta;
+    margin: 5px;
+    text-align: center;
+
+}
+
+#new-quote {
+    float: right;
+    color: darkmagenta;
+    font-weight: bold;
+    font-size: 10pt;
+    margin: 3px;
+    background-color: lightgray;
+}
