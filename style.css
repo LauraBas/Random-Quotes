@@ -15,8 +15,7 @@ body{
     background-color: darkmagenta;
     display: flex;
     box-shadow: 5px 9px #888888a3;
-    font-size: 1.2em
-;
+    font-size: 1.2em;
 
 }
 
@@ -30,6 +29,7 @@ body{
     width: 450px;
     display: block;
     margin-top: auto;
+    padding: 3px;
 }
 
 #tweet-quote, #tumblr-quote {
